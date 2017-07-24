@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mkdir 123
+mkdir /home/ubuntu/123
