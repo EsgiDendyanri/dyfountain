@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/test
+hooks:
+  AfterInstall:
+    - location: script/AfterInstall.sh
+      runas: ubuntu
